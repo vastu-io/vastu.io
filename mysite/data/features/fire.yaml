@@ -1,0 +1,5 @@
+weight: 1
+name: "Fire"
+# image: "img/carousel/Cloud_Direction.png"
+icon: "fa fa-fire"
+description: "Fire is the basis of all sources of energy including thermal power and atomic power."

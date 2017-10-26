@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vastu on Welcome! A place where ancient architecture &#39;Vastu&#39; meets modern Artificial Intelligence and Machine Learning!</title>
+    <link>https://vastu.io/categories/vastu/</link>
+    <description>Recent content in Vastu on Welcome! A place where ancient architecture &#39;Vastu&#39; meets modern Artificial Intelligence and Machine Learning!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2017, Vastu.io; all rights reserved.</copyright>
+    <lastBuildDate>Thu, 17 Sep 2015 13:47:08 +0200</lastBuildDate>
+    
+	<atom:link href="https://vastu.io/categories/vastu/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Vastu Purush Mandala</title>
+      <link>https://vastu.io/blog/2015/09/17/vastu-purush-mandala/</link>
+      <pubDate>Thu, 17 Sep 2015 13:47:08 +0200</pubDate>
+      
+      <guid>https://vastu.io/blog/2015/09/17/vastu-purush-mandala/</guid>
+      <description>The ancient Indian text Mayamatam on Vastu Sastra, written thousands of years ago, explains the legend of the Vastu Purusha. According to Hindu mythology, in the beginning Brahma the creator of the Universe, experimented with a new creature. He created a large cosmic man, who grew rapidly as he began to devour everything in his path to satisfy his insatiable hunger. When he became unmanageably big so that his shadow fell on the Earth like a permanent eclipse, the gods Shiva and Vishnu begged Brahma to do something before everything was destroyed by this Creature.</description>
+    </item>
+    
+  </channel>
+</rss>

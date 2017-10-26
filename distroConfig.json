@@ -1,0 +1,101 @@
+{
+    "Comment": "vastu.io-cdn Static Hosting", 
+    "Logging": {
+        "Bucket": "vastu.io-cdn-logs.s3.amazonaws.com", 
+        "Prefix": "vastu.io-cdn-cf/", 
+        "Enabled": true,
+        "IncludeCookies": false
+    }, 
+    "Origins": {
+        "Quantity": 1,
+        "Items": [
+            {
+                "Id":"vastu.io-cdn-origin",
+                "OriginPath": "", 
+                "CustomOriginConfig": {
+                    "OriginProtocolPolicy": "http-only", 
+                    "HTTPPort": 80, 
+                    "OriginSslProtocols": {
+                        "Quantity": 3,
+                        "Items": [
+                            "TLSv1", 
+                            "TLSv1.1", 
+                            "TLSv1.2"
+                        ]
+                    }, 
+                    "HTTPSPort": 443
+                }, 
+                "DomainName": "vastu.io-cdn.s3-website-us-east-1.amazonaws.com"
+            }
+        ]
+    }, 
+    "DefaultRootObject": "index.html", 
+    "PriceClass": "PriceClass_All", 
+    "Enabled": true, 
+    "CallerReference": "date + %s",
+    "DefaultCacheBehavior": {
+        "TargetOriginId": "vastu.io-cdn-origin",
+        "ViewerProtocolPolicy": "redirect-to-https", 
+        "DefaultTTL": 1800,
+        "AllowedMethods": {
+            "Quantity": 2,
+            "Items": [
+                "HEAD", 
+                "GET"
+            ], 
+            "CachedMethods": {
+                "Quantity": 2,
+                "Items": [
+                    "HEAD", 
+                    "GET"
+                ]
+            }
+        }, 
+        "MinTTL": 0, 
+        "Compress": true,
+        "ForwardedValues": {
+            "Headers": {
+                "Quantity": 0
+            }, 
+            "Cookies": {
+                "Forward": "none"
+            }, 
+            "QueryString": false
+        },
+        "TrustedSigners": {
+            "Enabled": false, 
+            "Quantity": 0
+        }
+    }, 
+    "ViewerCertificate": {
+        "SSLSupportMethod": "sni-only", 
+        "ACMCertificateArn": "arn:aws:acm:us-east-1:903933607121:certificate/d8dba975-99e1-427b-95a5-c34846b346ee", 
+        "MinimumProtocolVersion": "TLSv1", 
+        "Certificate": "arn:aws:acm:us-east-1:903933607121:certificate/d8dba975-99e1-427b-95a5-c34846b346ee", 
+        "CertificateSource": "acm"
+    }, 
+    "CustomErrorResponses": {
+        "Quantity": 2,
+        "Items": [
+            {
+                "ErrorCode": 403, 
+                "ResponsePagePath": "/404.html", 
+                "ResponseCode": "404",
+                "ErrorCachingMinTTL": 300
+            }, 
+            {
+                "ErrorCode": 404, 
+                "ResponsePagePath": "/404.html", 
+                "ResponseCode": "404",
+                "ErrorCachingMinTTL": 300
+            }
+        ]
+    }, 
+    "Aliases": {
+        "Quantity": 2,
+        "Items": [
+            "vastu.io", 
+            "www.vastu.io"
+        ]
+    }
+}

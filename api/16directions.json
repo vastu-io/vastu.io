@@ -1,0 +1,65 @@
+{
+    "directions": [
+        {
+            "name": "North"
+        },
+        {
+            "name": "NNE"
+        },
+        {
+            "name": "NE"
+        },
+        {
+            "name": "ENE"
+        },
+        {
+            "name": "East"
+        },
+
+        {
+            "name": "ESE"
+        },
+
+        {
+            "name": "SE"
+        },
+
+        {
+            "name": "SSE"
+        },
+
+        {
+            "name": "South"
+        },
+
+        {
+            "name": "SSW"
+        },
+
+        {
+            "name": "SW"
+        },
+
+        {
+            "name": "WSW"
+        },
+
+        {
+            "name": "West"
+        },
+
+        {
+            "name": "WNW"
+        },
+
+        {
+            "name": "NW"
+        },
+
+        {
+            "name": "NNW"
+        }
+
+    ]
+}
+

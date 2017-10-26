@@ -1,0 +1,97 @@
+{
+    "directions": [
+        {
+            "name": "North",
+            "subdir1": "N4",
+            "subdir2": "N5"
+        },
+        {
+            "name": "NNE",
+            "subdir1": "N6",
+            "subdir2": "N7"
+        },
+        {
+            "name": "NE",
+            "subdir1": "N8",
+            "subdir2": "E1"
+        },
+        {
+            "name": "ENE",
+            "subdir1": "E2",
+            "subdir2": "E3"
+        },
+        {
+            "name": "East",
+            "subdir1": "E4",
+            "subdir2": "E5"
+        },
+
+        {
+            "name": "ESE",
+            "subdir1": "E6",
+            "subdir2": "E7"
+        },
+
+        {
+            "name": "SE",
+            "subdir1": "E8",
+            "subdir2": "S1"
+        },
+
+        {
+            "name": "SSE",
+            "subdir1": "S2",
+            "subdir2": "S3"
+        },
+
+        {
+            "name": "South",
+            "subdir1": "S4",
+            "subdir2": "S5"
+        },
+
+        {
+            "name": "SSW",
+            "subdir1": "S6",
+            "subdir2": "S7"
+        },
+
+        {
+            "name": "SW",
+            "subdir1": "S8",
+            "subdir2": "W1"
+        },
+
+        {
+            "name": "WSW",
+            "subdir1": "W2",
+            "subdir2": "W3"
+        },
+
+        {
+            "name": "West",
+            "subdir1": "W4",
+            "subdir2": "W5"
+        },
+
+        {
+            "name": "WNW",
+            "subdir1": "W6",
+            "subdir2": "W7"
+        },
+
+        {
+            "name": "NW",
+            "subdir1": "W8",
+            "subdir2": "N1"
+        },
+
+        {
+            "name": "NNW",
+            "subdir1": "N2",
+            "subdir2": "N3"
+        }
+
+    ]
+}
+
